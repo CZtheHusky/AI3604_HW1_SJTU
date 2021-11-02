@@ -112,15 +112,15 @@ def main(argv):
     [print(i) for i in attribute_list]
 
 
-# if __name__ == '__main__':
-#     # python p1_object_attributes.py "coins" 128
-#     main(sys.argv[1:])
+if __name__ == '__main__':
+    # python p1_object_attributes.py "coins" 128
+    main(sys.argv[1:])
 
-argv = ['many_objects_1', 128]
-main(argv)
+# argv = ['many_objects_1', 128]
+# main(argv)
 # argv = ['coins', 128]
 # main(argv)
-argv = ['many_objects_2', 128]
-main(argv)
-argv = ['two_objects', 128]
-main(argv)
+# argv = ['many_objects_2', 128]
+# main(argv)
+# argv = ['two_objects', 128]
+# main(argv)
